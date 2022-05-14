@@ -2,7 +2,7 @@
 const BLOG = {
   AUTHOR: process.env.NOTION_BLOG_AUTHOR || '李老师xxnd', // 作者
   BIO: process.env.NOTION_BLOG_BIO || '李老师xxnd', // 作者简介
-  LINK: 'https://blog.bitpower.com', // 网站地址
+  LINK: 'https://blog.bitpower.ai', // 网站地址
   KEYWORDS: process.env.NOTION_BLOG_KEYWORDS || 'Notion, 博客, 李老师xxnd', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5

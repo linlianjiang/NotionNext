@@ -1,7 +1,7 @@
 const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
-  HEXO_HOME_BANNER_GREETINGS: ['welcome to linlian \s blog🎉'], // 首页大图标语文字
+  HEXO_HOME_BANNER_GREETINGS: ['welcome to linlian s blog🎉'], // 首页大图标语文字
 
   HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
@@ -22,7 +22,7 @@ const CONFIG = {
   HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   HEXO_POST_LIST_SUMMARY: true, // 文章摘要
   HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
-  HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+  HEXO_POST_LIST_IMG_CROSSOVER: false, // 博客列表图片左右交错
 
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明

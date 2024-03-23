@@ -29,14 +29,7 @@ const BlogPostCard = ({ index, post, showSummary, siteInfo }) => {
                 {/* 文字内容 */}
                 <BlogPostCardInfo index={index} post={post} showPageCover={showPageCover} showPreview={showPreview} showSummary={showSummary} />
 
-                {/* 图片封面 */}
-                {showPageCover && (
-                    <div className="md:w-5/12 overflow-hidden">
-                        <Link href={`${siteConfig('SUB_PATH', '')}/${post.slug}`} passHref legacyBehavior>
-                        <LazyImage priority={index === 1} src={post?.pageCoverThumbnail} className='h-56 w-full object-cover object-center group-hover:scale-110 duration-500' />
-                        </Link>
-                    </div>
-                )}
+                
 
             </div>
 

@@ -18,7 +18,8 @@ export default function PostHeader({ post, siteInfo }) {
     return <div className='my-8'/>
   }
 
-  const headerImage = post?.pageCover ? post.pageCover : siteInfo?.pageCover
+  //const headerImage = post?.pageCover ? post.pageCover : siteInfo?.pageCover
+  const headerImage = false
 
   return (
     <div id="header" className="w-full h-96 relative md:flex-shrink-0 z-10" >

@@ -122,7 +122,7 @@ const BLOG = {
 
   // 无关紧要的配置
   TITLE: process.env.NEXT_PUBLIC_TITLE || 'A BLOG', // 站点标题 ，被notion中的页面标题覆盖
-  AVATAR: '/avatar.png', // 个人头像 默认取public目录下的avatar.png
+  AVATAR: '', // 个人头像 默认取public目录下的avatar.png
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION || 'A blog of a man', // 站点描述，被notion中的页面描述覆盖
 

@@ -16,10 +16,10 @@ const Page = props => {
   // 根据页面路径加载不同Layout文件
   
   const Layout = getLayoutByTheme({ theme: siteConfig('THEME'), router: useRouter() })
-//image: siteInfo?.pageCover,
   
   const meta = {
     title: `${props?.page} | Page | ${siteConfig('TITLE')}`,
+    image: siteInfo?.pageCover,
     description: siteConfig('DESCRIPTION'),
     slug: 'page/' + props.page,
     type: 'website'
